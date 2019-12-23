@@ -19,7 +19,6 @@ def won?(board)
   WIN_COMBINATIONS.each do |win_comb|
     puts win_comb
   end
-
 end
 
 # What do i need to do
