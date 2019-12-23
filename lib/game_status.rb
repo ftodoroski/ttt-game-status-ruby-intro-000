@@ -22,13 +22,5 @@ def won?(board)
 
 end
 
-# What do i need to do 
-# check combination in board to see if it contains all Xs or Os 
-
-
-
-
-
-
-
-
+# What do i need to do
+# check combination in board to see if it contains all Xs or Os
