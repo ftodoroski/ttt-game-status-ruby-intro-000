@@ -16,6 +16,19 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-
+  WIN_COMBINATIONS.each do |win_comb|
+    puts win_comb
+  end
 
 end
+
+# What do i need to do 
+# check combination in board to see if it contains all Xs or Os 
+
+
+
+
+
+
+
+
