@@ -17,7 +17,11 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_comb|
-    puts win_comb
+    prev_token = ""
+
+    win_comb.each do ||
+
+    end
   end
 end
 
