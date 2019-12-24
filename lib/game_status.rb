@@ -17,11 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_comb|
-    prev_token = ""
-
-    win_comb.each do ||
-
-    end
+    return win_comb if win_comb[0] == win_comb[1] && win_comb[1] == win_comb[2]
   end
 end
 
