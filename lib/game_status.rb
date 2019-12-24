@@ -18,8 +18,8 @@ WIN_COMBINATIONS = [
 def won?(board)
   board.all? { |pos| pos == " " }
 
-  
-  
+
+
   WIN_COMBINATIONS.each do |win_com|
     if board[win_com[0]] == "X" &&  board[win_com[1]] == "X" && board[win_com[2]] == "X"
       return win_com
