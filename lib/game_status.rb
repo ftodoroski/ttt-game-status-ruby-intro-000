@@ -38,7 +38,7 @@ end
 def draw?(board)
   if full?(board)
     return true
-  elsif board[WIN_COMBINATIONS[0][0]] == "X" && board[WIN_COMBINATIONS[0][1]] == "X" && board[WIN_COMBINATIONS[0][2]] == "X"
+  elsif board[0] == "X" && board[1] == "X" && board[2] == "X"
     return false
   end
 
