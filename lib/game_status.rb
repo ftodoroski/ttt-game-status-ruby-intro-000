@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  board.all? { |pos| pos == " " }
+  !board.all? { |pos| pos == " " }
 
 
 
