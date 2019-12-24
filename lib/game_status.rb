@@ -50,3 +50,11 @@ def over?(board)
     return false
   end
 end
+
+def winner(board)
+  if draw?(board)
+    return nil
+  end
+
+  won?(board)[0]
+end
