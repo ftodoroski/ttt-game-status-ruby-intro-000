@@ -20,6 +20,8 @@ def won?(board)
     if board[win_com[0]] == "X" &&  board[win_com[1]] == "X" && board[win_com[2]] == "X"
       return win_com
     elsif board[win_com[0]] == "O" &&  board[win_com[1]] == "O" && board[win_com[2]] == "O"
+      return win_com
+    end
 
   end
 end
