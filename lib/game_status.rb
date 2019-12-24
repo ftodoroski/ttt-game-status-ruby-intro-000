@@ -16,8 +16,8 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  
-end
+  WIN_COMBINATIONS.each do |win_com|
+    if board[win_com[0]] == "X" &&  board[win_com[1]] == "X" && board[win_com[2]] == "X"
 
-# What do i need to do
-# check combination in board to see if it contains all Xs or Os
+  end
+end
