@@ -16,9 +16,11 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  
-  WIN_COMBINATIONS.each do |win_comb|
-    return win_comb if win_comb[0] == win_comb[1] && win_comb[1] == win_comb[2]
+  WIN_COMBINATIONS.each do |win_com|
+    if board[win_com[0]] == "X" && board[win_com[1]] == "X" && board[win_com[2]] == "X"
+      return win_com
+    elsif board[win_com[0]] == "O" && board[win_com[1]] == "O" && board[win_com[2]] == "O" 
+
   end
 end
 
